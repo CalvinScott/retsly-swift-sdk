@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6202D4F91D5A817500781DD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6202D4F81D5A817500781DD3 /* AppDelegate.swift */; };
+		6202D4FB1D5A817500781DD3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6202D4FA1D5A817500781DD3 /* RootViewController.swift */; };
+		6202D4FD1D5A817500781DD3 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6202D4FC1D5A817500781DD3 /* DataViewController.swift */; };
+		6202D4FF1D5A817600781DD3 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6202D4FE1D5A817600781DD3 /* ModelController.swift */; };
+		6202D5021D5A817600781DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6202D5001D5A817600781DD3 /* Main.storyboard */; };
+		6202D5041D5A817600781DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6202D5031D5A817600781DD3 /* Assets.xcassets */; };
+		6202D5071D5A817600781DD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6202D5051D5A817600781DD3 /* LaunchScreen.storyboard */; };
+		6202D5121D5A817600781DD3 /* retsly_swift_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6202D5111D5A817600781DD3 /* retsly_swift_sdkTests.swift */; };
+		6202D51D1D5A817600781DD3 /* retsly_swift_sdkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6202D51C1D5A817600781DD3 /* retsly_swift_sdkUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6202D50E1D5A817600781DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6202D4ED1D5A817500781DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6202D4F41D5A817500781DD3;
+			remoteInfo = "retsly-swift-sdk";
+		};
+		6202D5191D5A817600781DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6202D4ED1D5A817500781DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6202D4F41D5A817500781DD3;
+			remoteInfo = "retsly-swift-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6202D4F51D5A817500781DD3 /* retsly-swift-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "retsly-swift-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6202D4F81D5A817500781DD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6202D4FA1D5A817500781DD3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		6202D4FC1D5A817500781DD3 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		6202D4FE1D5A817600781DD3 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		6202D5011D5A817600781DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6202D5031D5A817600781DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6202D5061D5A817600781DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6202D5081D5A817600781DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6202D50D1D5A817600781DD3 /* retsly-swift-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retsly-swift-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6202D5111D5A817600781DD3 /* retsly_swift_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retsly_swift_sdkTests.swift; sourceTree = "<group>"; };
+		6202D5131D5A817600781DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6202D5181D5A817600781DD3 /* retsly-swift-sdkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retsly-swift-sdkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6202D51C1D5A817600781DD3 /* retsly_swift_sdkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retsly_swift_sdkUITests.swift; sourceTree = "<group>"; };
+		6202D51E1D5A817600781DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6202D4F21D5A817500781DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6202D50A1D5A817600781DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6202D5151D5A817600781DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6202D4EC1D5A817500781DD3 = {
+			isa = PBXGroup;
+			children = (
+				6202D4F71D5A817500781DD3 /* retsly-swift-sdk */,
+				6202D5101D5A817600781DD3 /* retsly-swift-sdkTests */,
+				6202D51B1D5A817600781DD3 /* retsly-swift-sdkUITests */,
+				6202D4F61D5A817500781DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6202D4F61D5A817500781DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6202D4F51D5A817500781DD3 /* retsly-swift-sdk.app */,
+				6202D50D1D5A817600781DD3 /* retsly-swift-sdkTests.xctest */,
+				6202D5181D5A817600781DD3 /* retsly-swift-sdkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6202D4F71D5A817500781DD3 /* retsly-swift-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				6202D4F81D5A817500781DD3 /* AppDelegate.swift */,
+				6202D4FA1D5A817500781DD3 /* RootViewController.swift */,
+				6202D4FC1D5A817500781DD3 /* DataViewController.swift */,
+				6202D4FE1D5A817600781DD3 /* ModelController.swift */,
+				6202D5001D5A817600781DD3 /* Main.storyboard */,
+				6202D5031D5A817600781DD3 /* Assets.xcassets */,
+				6202D5051D5A817600781DD3 /* LaunchScreen.storyboard */,
+				6202D5081D5A817600781DD3 /* Info.plist */,
+			);
+			path = "retsly-swift-sdk";
+			sourceTree = "<group>";
+		};
+		6202D5101D5A817600781DD3 /* retsly-swift-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6202D5111D5A817600781DD3 /* retsly_swift_sdkTests.swift */,
+				6202D5131D5A817600781DD3 /* Info.plist */,
+			);
+			path = "retsly-swift-sdkTests";
+			sourceTree = "<group>";
+		};
+		6202D51B1D5A817600781DD3 /* retsly-swift-sdkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6202D51C1D5A817600781DD3 /* retsly_swift_sdkUITests.swift */,
+				6202D51E1D5A817600781DD3 /* Info.plist */,
+			);
+			path = "retsly-swift-sdkUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6202D4F41D5A817500781DD3 /* retsly-swift-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6202D5211D5A817600781DD3 /* Build configuration list for PBXNativeTarget "retsly-swift-sdk" */;
+			buildPhases = (
+				6202D4F11D5A817500781DD3 /* Sources */,
+				6202D4F21D5A817500781DD3 /* Frameworks */,
+				6202D4F31D5A817500781DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "retsly-swift-sdk";
+			productName = "retsly-swift-sdk";
+			productReference = 6202D4F51D5A817500781DD3 /* retsly-swift-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6202D50C1D5A817600781DD3 /* retsly-swift-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6202D5241D5A817600781DD3 /* Build configuration list for PBXNativeTarget "retsly-swift-sdkTests" */;
+			buildPhases = (
+				6202D5091D5A817600781DD3 /* Sources */,
+				6202D50A1D5A817600781DD3 /* Frameworks */,
+				6202D50B1D5A817600781DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6202D50F1D5A817600781DD3 /* PBXTargetDependency */,
+			);
+			name = "retsly-swift-sdkTests";
+			productName = "retsly-swift-sdkTests";
+			productReference = 6202D50D1D5A817600781DD3 /* retsly-swift-sdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6202D5171D5A817600781DD3 /* retsly-swift-sdkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6202D5271D5A817600781DD3 /* Build configuration list for PBXNativeTarget "retsly-swift-sdkUITests" */;
+			buildPhases = (
+				6202D5141D5A817600781DD3 /* Sources */,
+				6202D5151D5A817600781DD3 /* Frameworks */,
+				6202D5161D5A817600781DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6202D51A1D5A817600781DD3 /* PBXTargetDependency */,
+			);
+			name = "retsly-swift-sdkUITests";
+			productName = "retsly-swift-sdkUITests";
+			productReference = 6202D5181D5A817600781DD3 /* retsly-swift-sdkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6202D4ED1D5A817500781DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Calvin Scott";
+				TargetAttributes = {
+					6202D4F41D5A817500781DD3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6202D50C1D5A817600781DD3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6202D4F41D5A817500781DD3;
+					};
+					6202D5171D5A817600781DD3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6202D4F41D5A817500781DD3;
+					};
+				};
+			};
+			buildConfigurationList = 6202D4F01D5A817500781DD3 /* Build configuration list for PBXProject "retsly-swift-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6202D4EC1D5A817500781DD3;
+			productRefGroup = 6202D4F61D5A817500781DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6202D4F41D5A817500781DD3 /* retsly-swift-sdk */,
+				6202D50C1D5A817600781DD3 /* retsly-swift-sdkTests */,
+				6202D5171D5A817600781DD3 /* retsly-swift-sdkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6202D4F31D5A817500781DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6202D5071D5A817600781DD3 /* LaunchScreen.storyboard in Resources */,
+				6202D5041D5A817600781DD3 /* Assets.xcassets in Resources */,
+				6202D5021D5A817600781DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6202D50B1D5A817600781DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6202D5161D5A817600781DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6202D4F11D5A817500781DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6202D4FB1D5A817500781DD3 /* RootViewController.swift in Sources */,
+				6202D4FF1D5A817600781DD3 /* ModelController.swift in Sources */,
+				6202D4FD1D5A817500781DD3 /* DataViewController.swift in Sources */,
+				6202D4F91D5A817500781DD3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6202D5091D5A817600781DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6202D5121D5A817600781DD3 /* retsly_swift_sdkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6202D5141D5A817600781DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6202D51D1D5A817600781DD3 /* retsly_swift_sdkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6202D50F1D5A817600781DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6202D4F41D5A817500781DD3 /* retsly-swift-sdk */;
+			targetProxy = 6202D50E1D5A817600781DD3 /* PBXContainerItemProxy */;
+		};
+		6202D51A1D5A817600781DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6202D4F41D5A817500781DD3 /* retsly-swift-sdk */;
+			targetProxy = 6202D5191D5A817600781DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6202D5001D5A817600781DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6202D5011D5A817600781DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6202D5051D5A817600781DD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6202D5061D5A817600781DD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6202D51F1D5A817600781DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6202D5201D5A817600781DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6202D5221D5A817600781DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "retsly-swift-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Retsly.retsly-swift-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6202D5231D5A817600781DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "retsly-swift-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Retsly.retsly-swift-sdk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6202D5251D5A817600781DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "retsly-swift-sdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Retsly.retsly-swift-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retsly-swift-sdk.app/retsly-swift-sdk";
+			};
+			name = Debug;
+		};
+		6202D5261D5A817600781DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "retsly-swift-sdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Retsly.retsly-swift-sdkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/retsly-swift-sdk.app/retsly-swift-sdk";
+			};
+			name = Release;
+		};
+		6202D5281D5A817600781DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "retsly-swift-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Retsly.retsly-swift-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "retsly-swift-sdk";
+			};
+			name = Debug;
+		};
+		6202D5291D5A817600781DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "retsly-swift-sdkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Retsly.retsly-swift-sdkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "retsly-swift-sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6202D4F01D5A817500781DD3 /* Build configuration list for PBXProject "retsly-swift-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6202D51F1D5A817600781DD3 /* Debug */,
+				6202D5201D5A817600781DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6202D5211D5A817600781DD3 /* Build configuration list for PBXNativeTarget "retsly-swift-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6202D5221D5A817600781DD3 /* Debug */,
+				6202D5231D5A817600781DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6202D5241D5A817600781DD3 /* Build configuration list for PBXNativeTarget "retsly-swift-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6202D5251D5A817600781DD3 /* Debug */,
+				6202D5261D5A817600781DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6202D5271D5A817600781DD3 /* Build configuration list for PBXNativeTarget "retsly-swift-sdkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6202D5281D5A817600781DD3 /* Debug */,
+				6202D5291D5A817600781DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6202D4ED1D5A817500781DD3 /* Project object */;
+}
