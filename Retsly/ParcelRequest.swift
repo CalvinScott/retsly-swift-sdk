@@ -10,6 +10,6 @@ import Foundation
 
 class ParcelRequest: Request {
     init(client: Client, query: [String: String]) {
-        super.init(client: client, token: client.token, vendor: "pub", resource: "parcels", method: "get", url: client.getURL("parcels", vendor: "pub"), query: query);
+        super.init(client: client, token: client.token, vendor: "pub", resource: "parcels", method: "GET", url: client.getURL("parcels", vendor: "pub"), query: query);
     }
 }

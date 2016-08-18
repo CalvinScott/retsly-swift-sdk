@@ -10,6 +10,6 @@ import Foundation
 
 class AgentRequest: Request {
     init(client: Client, query: [String: String]) {
-        super.init(client: client, token: client.token, vendor: client.vendor, resource: "agents", method: "get", url: client.getURL("agents", vendor: client.vendor), query: query);
+        super.init(client: client, token: client.token, vendor: client.vendor, resource: "agents", method: "GET", url: client.getURL("agents", vendor: client.vendor), query: query);
     }
 }

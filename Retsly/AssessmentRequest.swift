@@ -10,6 +10,6 @@ import Foundation
 
 class AssessmentRequest: Request {
     init(client: Client, query: [String: String]) {
-        super.init(client: client, token: client.token, vendor: "pub", resource: "assessments", method: "get", url: client.getURL("assessments", vendor: "pub"), query: query);
+        super.init(client: client, token: client.token, vendor: "pub", resource: "assessments", method: "GET", url: client.getURL("assessments", vendor: "pub"), query: query);
     }
 }

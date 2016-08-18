@@ -10,6 +10,6 @@ import Foundation
 
 class TransactionRequest: Request {
     init(client: Client, query: [String: String]) {
-        super.init(client: client, token: client.token, vendor: "pub", resource: "transactions", method: "get", url: client.getURL("transactions", vendor: "pub"), query: query);
+        super.init(client: client, token: client.token, vendor: "pub", resource: "transactions", method: "GET", url: client.getURL("transactions", vendor: "pub"), query: query);
     }
 }

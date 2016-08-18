@@ -10,6 +10,6 @@ import Foundation
 
 class ListingRequest: Request {
     init(client: Client, query: [String: String]) {
-        super.init(client: client, token: client.token, vendor: client.vendor, resource: "listings", method: "get", url: client.getURL("listings", vendor: client.vendor), query: query);
+        super.init(client: client, token: client.token, vendor: client.vendor, resource: "listings", method: "GET", url: client.getURL("listings", vendor: client.vendor), query: query);
     }
 }

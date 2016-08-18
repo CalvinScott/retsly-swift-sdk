@@ -10,6 +10,6 @@ import Foundation
 
 class OpenHouseRequest: Request {
     init(client: Client, query: [String: String]) {
-        super.init(client: client, token: client.token, vendor: client.vendor, resource: "openhouses", method: "get", url: client.getURL("openhouses", vendor: client.vendor), query: query);
+        super.init(client: client, token: client.token, vendor: client.vendor, resource: "openhouses", method: "GET", url: client.getURL("openhouses", vendor: client.vendor), query: query);
     }
 }
